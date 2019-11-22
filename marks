@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    float m1,m2,m3,per;
+    printf("enter value of m1,m2,m3");
+    scanf("%f%f%f",&m1,&m2,&m3);
+    per = (m1+m2+m3)*100/300;
+    printf("\n Total marks of %f:",per);
+    return 0;
+}
